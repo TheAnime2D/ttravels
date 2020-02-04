@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+p,
+ul{
+    margin-bottom: 0;
+}
+img{
+    width: 100%;
+}
+
+/* ============================================================== HEADER START ===================================================*/
+
+
+.header{
+height: 986px;
+
+}
+.header{
+    background: url(../images/paul-trienekens-cYW4ROUmzzQ-unsplash.jpg) no-repeat center /cover ;
+
+}
+.menu{
+    background: #fff;
+    padding: 53px 0;
+}
+.logo{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 28px;
+    color: rgba(1, 21, 85, 0.7);
+}
+.logo:hover{
+    color: rgba(1, 21, 85, 0.7);
+}
+.burger-menu{
+    color: #746f77;
+    font-size: 28px;
+}
+.header-content_title{
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: #626262;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.header-content_title span{
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #011556;
+}
+
+.header-content_description{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 16px;
+   
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 106px;
+}
+.header-form{
+background:#fff;
+padding: 32px 41px 13px;
+width: 100%;
+max-width: 376px;
+margin: 0 auto;
+
+
+
+}
+.header-form_title{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(2,21,86,0.9);
+    text-align: center;
+    margin-bottom: 42px;
+}
+.header-form input,
+.header-form textarea{
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+    border-radius: 0;
+    padding: 10px 5px;
+    margin-bottom: 26px;
+}
+.header-form texta{
+    min-height: 93px;
+    resize: none;
+}
+.header-form input:focus,
+.header-form textarea:focus{
+    box-shadow: none;
+}
+
+/* ============================================================== HEADER END ===================================================*/
